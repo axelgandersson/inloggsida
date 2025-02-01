@@ -1,0 +1,62 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:1rem;
+}
+
+.login-container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 19px;
+    box-shadow: 0 0 400px rgba(173, 59, 44, 0.815);
+    width: 300px;
+    text-align: center;
+    color: white;
+    border: rgba(107, 0, 0, 0.76) solid .5rem;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(107, 0, 0, 0.76);
+    color: white;
+    cursor:grab;
+}
+
+button:hover {
+    background-color: #c40404;
+}
+
+.rememberme {
+    display: flex;
+    align-items: start;
+    margin-bottom: 1rem;
+    justify-content: start ;
+}
